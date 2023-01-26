@@ -24,7 +24,7 @@ name:QR Code Button
 desc:Click this to make a QR Code
 class:bigButton
 icon:https://github.com/sunnystew22/QRCodeClicker/blob/master/Assets/qrcodebutton.png?raw=true
-on click:yield1 qrcode
+on click:yield 1 qrcode
 
 Buildings
 
