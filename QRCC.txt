@@ -11,6 +11,7 @@ Resources
 *qrcode|qrcodes
 name:QR code|QR codes
 desc:These are the QR codes you have, you need these to make money!
+icon:https://github.com/sunnystew22/QRCodeClicker/blob/master/Assets/qrcoderesource.png?raw=true
 
 *dollar|dollars
 name:Dollar|Dollars
@@ -22,7 +23,8 @@ Buttons
 name:QR Code Button
 desc:Click this to make a QR Code
 class:bigButton
-icon:https://raw.githubusercontent.com/sunnystew22/QRCodeClicker/master/Assets/qrcode.png
+icon:https://github.com/sunnystew22/QRCodeClicker/blob/master/Assets/qrcodebutton.png?raw=true
+on click:yield 1 qrcode
 
 Buildings
 
