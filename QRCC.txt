@@ -1,0 +1,44 @@
+Let's make a game!
+name:QR Code Clicker
+desc:Make random QR codes, start selling them, and get rich!<//><b>Version 0.1</b> <q>Where it all began.</q><//>The Start<//><.>Made the game
+by:Sunnystew
+version:0.1
+//Information ^^^
+//QR Code Clicker is in alpha. Feel free to let me know if you want some code modifications.
+
+Resources
+
+*qrcode|qrcodes
+name:QR code|QR codes
+desc:These are the QR codes you have, you need these to make money!
+
+*dollar|dollars
+name:Dollar|Dollars
+desc:This is your money, you can use these to purchase upgrades.
+
+Buttons
+
+*qrcodebutton
+name:QR Code Button
+desc:Click this to make a QR Code
+class:bigButton
+
+Buildings
+
+*b1
+name:Random character generator
+desc:Makes random characters to print QR codes.<//>Tier: Basic<//><.>Each Random character generator produces 1 QR code per second.
+cost:15 qrcodes
+
+*b2
+name:Printer
+desc:An extra printer to connect to your PC.
+cost:50 qrcodes
+limit:2
+
+Achievements
+
+*a1
+name:Wake and print
+desc:Make 1 QR code.
+req:1 qrcode
