@@ -22,19 +22,22 @@ Buttons
 name:QR Code Button
 desc:Click this to make a QR Code
 class:bigButton
+icon:https://raw.githubusercontent.com/sunnystew22/QRCodeClicker/master/Assets/qrcode.png
 
 Buildings
 
 *b1
 name:Random character generator
-desc:Makes random characters to print QR codes.<//>Tier: Basic<//><.>Each Random character generator produces 1 QR code per second.
+desc:Makes random characters to print QR codes.<//>Tier: Basic<//><.>Each random character generator produces 1 QR code per second.
 cost:15 qrcodes
+on tick:yield 1 qrcode
 
 *b2
 name:Printer
-desc:An extra printer to connect to your PC.
+desc:An extra printer to connect to your PC.<//>Tier: Basic<//><.>Each printer produces 5 QR codes per second
 cost:50 qrcodes
 limit:2
+on tick:yield 5 qrcodes
 
 Achievements
 
