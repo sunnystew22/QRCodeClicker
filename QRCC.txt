@@ -7,7 +7,7 @@ version:0.1
 //QR Code Clicker is in alpha. Feel free to let me know if you want some code modifications.
 
 Settings
-	background:https://github.com/sunnystew22/QRCodeClicker/blob/master/Assets/qrcodebutton.png?raw=true
+	background:https://github.com/sunnystew22/QRCodeClicker/blob/master/Assets/bg.png?raw=true
 	building cost increase:115%
 	building cost refund:50%
 	stylesheet:stuff/bigBlue.css
