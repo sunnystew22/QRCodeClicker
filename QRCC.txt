@@ -1,6 +1,6 @@
 Let's make a game!
 name:QR Code Clicker
-desc:Make random QR codes, start selling them, and get rich!<//><b>Version 0.1</b> <q>Where it all began.</q><//>The Start<//><.>Made the game
+desc:Make random QR codes, start selling them, get rich, and build a QR code empire!<//><b>Version 0.1</b> <q>Where it all began.</q><//>The Start<//><.>Made the game
 by:Sunnystew
 version:0.1
 //Information ^^^
