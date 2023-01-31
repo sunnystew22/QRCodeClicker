@@ -31,6 +31,11 @@ icon:https://github.com/sunnystew22/QRCodeClicker/blob/master/Assets/qrcoderesou
 name:Dollar|Dollars
 desc:This is your money, you can use these to purchase upgrades.
 
+*printerlimit
+name:Printer limit
+desc:This is the magic that limits the printers.
+hidden
+
 Buttons
 
 *qrcodebutton
@@ -52,8 +57,12 @@ on tick:yield 1 qrcode
 name:Printer
 desc:An extra printer to connect to your PC.<//>Tier: Basic<//><.>Each printer produces 5 QR codes per second
 cost:50 qrcodes
-limit:2
+limit:(printerlimit)
 on tick:yield 5 qrcodes
+
+*b3
+name:PC
+desc:An extra PC to connect extra printers to.<//>Tier: Basic<//><.>Each PC produces 50 QR codes per second<//><.>Each PC increases the printer limit by 2
 
 Achievements
 
